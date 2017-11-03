@@ -12,7 +12,7 @@
 
 		<form method = 'post'>
 			<input type = 'text' name = 'limit'/>
-			<button name = 'submit'>Print Fibonacci series</button>
+			<button name = 'submit'>Print Fibonacci Series</button>
 		</form>
 
 		</br>
@@ -28,7 +28,7 @@
 		    
 		    $num1 = 0;
 		    $num2 = 1;
-		    $next_num = 0;
+		    $num3 = 0;
 		    
 		      //This will check the input if the value is greater than 0
 		      if($limit > 0){
@@ -45,8 +45,8 @@
 		      //This will check if the input is > 2, then it will print the fibonacci sequence
 		      while($limit > 2)
 		        {       
-		           //This will add the first value ($num1) and the second value ($num2), to get to the next value ($next_num)
-		           $next_num = $num1 + $num2;
+		           //This will add the first value ($num1) and the second value ($num2), to get to the next value ($num3)
+		           $num3 = $num1 + $num2;
 		           
 		           //What to do to find the next series
 
@@ -54,9 +54,9 @@
 		           $num1  = $num2;
 
 		           //This assigns the next value (sum of $num1 & $num2) to the second value ($num2)           
-		           $num2 = $next_num;
+		           $num2 = $num3;
 		           
-		           //This will print the next value ($next_num)
+		           //This will print the next value ($num3)
 		           print $next_num . "<br>";
 		           
 		           //This will decrement the limit by one
