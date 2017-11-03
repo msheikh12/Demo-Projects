@@ -57,7 +57,7 @@
 		           $num2 = $num3;
 		           
 		           //This will print the next value ($num3)
-		           print $next_num . "<br>";
+		           print $num3 . "<br>";
 		           
 		           //This will decrement the limit by one
 		           $limit--;
