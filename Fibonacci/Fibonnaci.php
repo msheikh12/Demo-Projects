@@ -59,7 +59,7 @@
 		           //This will print the next value ($next_num)
 		           print $next_num . "<br>";
 		           
-		           //This will decrement the limit by one 
+		           //This will decrement the limit by one
 		           $limit--;
 		        }
 		    }
