@@ -45,17 +45,18 @@
 		      //This will check if the input is > 2, then it will print the fibonacci sequence
 		      while($limit > 2)
 		        {       
-		           //This will add the first value and second to get to the next value
+		           //This will add the first value ($num1) and the second value ($num2), to get to the next value ($next_num)
 		           $next_num = $num1 + $num2;
 		           
 		           //What to do to find the next series
-		           //This assigns the second value to the first
+
+		           //This assigns the second value ($num2) to the first value ($num1)
 		           $num1  = $num2;
 
-		           //This assigns the next value to the second value to the first           
+		           //This assigns the next value (sum of $num1 & $num2) to the second value ($num2)           
 		           $num2 = $next_num;
 		           
-		           //This will print the next value
+		           //This will print the next value ($next_num)
 		           print $next_num . "<br>";
 		           
 		           //This will decrement the limit by one 
